@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cairn Character Generator</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <style media="screen">
+      a:active {color: #2a9c56}
+      a:visited {color: #1a7a3f}
+      a:hover {color: #32b865}
+      h2, h3 {font-family: "Inknut Antiqua"}
+      body {width: 500px; margin: auto; font-family: "Libre Baskerville"}
+    </style>
+    <h2>Cairn Character Generator</h2>
+    Based on <a href="https://yochaigal.itch.io/cairn">Cairn</a> by <a href="https://newschoolrevolution.com">Yochai Gal</a>. 
+    <br>
+    Generator by <a href="https://nakade.itch.io">Nakade</a>. 
+    <br>Thanks to the random generators found at <a href="https://donjon.bin.sh/code/random">donjon</a>.
+    <br>Reload to generate a new character.
+     <script type="text/javascript" src="js/generator.js"></script>
+    <script type="text/javascript" src="js/cairn_data.js"></script>
+    <div class="chargen">
+      <h3>Appearance</h3>
+      <p id="character"></p>
+      <h3>Attributes</h3>
+      <table>
+        <tr><th>Age: </th><td id="age"></td></tr>
+        <tr><th>HP: </th><td id="hp"></td></tr>
+        <tr><th>STR: </th><td id="str"></td></tr>
+        <tr><th>DEX: </th><td id="dex"></td></tr>
+        <tr><th>WIL: </th><td id="wil"></td></tr>
+      </table>
+      <h3>Equipment</h3>
+      <ul>
+        <li><b>Armor: </b><span id="armor"></span></li>
+        <li><b>Helmet/Shield: </b><span id="helmet"></span></li>
+        <li><b>Weapons: </b> One of <span id="weapons"></span></li>
+        <li><b>Bonus item: </b><span id="bonus"></span></li>
+        <li><b>Belt: </b><span id="gold"></span> gold, 1 torch, and 1 week's rations.</li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
