@@ -241,8 +241,8 @@ gen_data['helmet'] = {
 gen_data['weapons'] = {
   '1-5': 'Dagger, Cudgel, Staff ',
   '6-14': 'Sword, Mace, Axe',
-  '15-19': 'Longbow (Bulky), Crossbow (Bulky), Sling',
-  '20': 'Halberd (Bulky), War Hammer (Bulky), Battleaxe (Bulky)'
+  '15-19': 'Longbow (bulky), Crossbow (bulky), Sling',
+  '20': 'Halberd (bulky), War Hammer (bulky), Battleaxe (bulky)'
 }
 
 gen_data['bonus'] = {
