@@ -1,5 +1,5 @@
 gen_data['character'] = [
-  'You are {name} {surname}, {background}.<br>Your physique is {physique}, with {skin} skin, {hair} hair, and a {face} face.<br>You speak in a {speech} manner and wear {clothing} clothing.<br>{vice} yet {virtue}, you are regarded as {reputation}, having experienced the misfortune of being {misfortune}.'
+  'You are {name} {surname}, {background}.<br>Your physique is {physique}, with {skin} skin, {hair} hair, and {face} face.<br>You speak in a {speech} manner and wear {clothing} clothing.<br>{vice} yet {virtue}, you are regarded as {reputation}, having experienced the misfortune of being {misfortune}.'
 ]
 
 gen_data['name'] = [
@@ -131,16 +131,16 @@ gen_data['hair'] = [
 ]
 
 gen_data['face'] = [
-  'chiseled'
-,  'square'
-,  'bony'
-,  'sharp'
-,  'sunken'
-,  'elongated'
-,  'broken'
-,  'soft'
-,  'rat-like'
-,  'round'
+  'a chiseled'
+,  'a square'
+,  'a bony'
+,  'a sharp'
+,  'a sunken'
+,  'an elongated'
+,  'a broken'
+,  'a soft'
+,  'a rat-like'
+,  'a round'
 ]
 
 gen_data['speech'] = [
