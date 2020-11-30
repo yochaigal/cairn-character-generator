@@ -1,5 +1,5 @@
 gen_data['character'] = [
-  'You are {name} {surname}, a(n) {background}.<br>Your physique is {physique}, with {skin} skin, {hair} hair, and a {face} face.<br>You speak in a {speech} manner and wear {clothing} clothing.<br>{vice} yet {virtue}, you are regarded as {reputation}, having experienced the misfortune of being {misfortune}.'
+  'You are {name} {surname}, {background}.<br>Your physique is {physique}, with {skin} skin, {hair} hair, and a {face} face.<br>You speak in a {speech} manner and wear {clothing} clothing.<br>{vice} yet {virtue}, you are regarded as {reputation}, having experienced the misfortune of being {misfortune}.'
 ]
 
 gen_data['name'] = [
@@ -69,26 +69,26 @@ gen_data['surname'] = [
 ]
 
 gen_data['background'] = [
-  'alchemist'
-,  'blacksmith'
-,  'butcher'
-,  'burglar'
-,  'carpenter'
-,  'cleric'
-,  'gambler'
-,  'gravedigger'
-,  'herbalist'
-,  'hunter'
-,  'magician'
-,  'mercenary'
-,  'merchant'
-,  'miner'
-, 'outlaw'
-,  'performer'
-,  'pickpocket'
-,  'smuggler'
-,  'servant'
-,  'ranger'
+  'an alchemist'
+,  'a blacksmith'
+,  'a butcher'
+,  'a burglar'
+,  'a carpenter'
+,  'a cleric'
+,  'a gambler'
+,  'a gravedigger'
+,  'an herbalist'
+,  'a hunter'
+,  'a magician'
+,  'a mercenary'
+,  'a merchant'
+,  'a miner'
+, 'an outlaw'
+,  'a performer'
+,  'a pickpocket'
+,  'a smuggler'
+,  'a servant'
+,  'a ranger'
 ]
 
 gen_data['physique'] = [
