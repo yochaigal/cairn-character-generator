@@ -183,16 +183,16 @@ gen_data['virtue'] = [
 ]
 
 gen_data['vice'] = [
-  'aggressive'
-,  'bitter'
-,  'craven'
-,  'deceitful'
-,  'greedy'
-,  'vengeful'
-,  'lazy'
-,  'nervous'
-,  'rude'
-,  'vain'
+  'Aggressive'
+,  'Bitter'
+,  'Craven'
+,  'Deceitful'
+,  'Greedy'
+,  'Vengeful'
+,  'Lazy'
+,  'Nervous'
+,  'Rude'
+,  'Vain'
 ]
 
 gen_data['reputation'] = [
