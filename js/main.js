@@ -19,6 +19,7 @@ for (let i = 0; i < allItems.length; i++) {
     total++;
   }
 }
+
 console.log(total);
 $("#character").html(generate_text("character"));
 $("#age").html(roll(20) + roll(20) + 10);
