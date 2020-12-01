@@ -239,11 +239,16 @@ gen_data['helmet'] = {
 }
 
 gen_data['weapons'] = {
-  '1-5': 'Dagger, Cudgel, Staff ',
-  '6-14': 'Sword, Mace, Axe',
-  '15-19': 'Longbow (bulky), Crossbow (bulky), Sling',
-  '20': 'Halberd (bulky), War Hammer (bulky), Battleaxe (bulky)'
+'1-10':'{wgroup1}',
+'6-14':'{wgroup2}',
+'15-19':'{wgroup3}',
+'20':'{wgroup4}'
 }
+
+gen_data['wgroup1'] = ['Dagger', 'Cudgel', 'Staff']
+gen_data['wgroup2'] = ['Sword', 'Mace', 'Axe']
+gen_data['wgroup3'] = ['Longbow (bulky)', 'Crossbow (bulky)', 'Sling']
+gen_data['wgroup4'] = ['Halberd (bulky)', 'War Hammer (bulky)', 'Battleaxe (bulky)']
 
 gen_data['bonus'] = {
   '1-6': '{tool} or {trinket}',
