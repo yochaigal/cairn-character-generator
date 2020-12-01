@@ -222,7 +222,7 @@ gen_data['misfortune'] = [
 ]
 
 gen_data['equipment'] = [
-  'armor: {armor}<br>Helmet/Shield: {helmet}<br>Weapons: {weapons}<br>Bonus item: {bonus}'
+  'armor: {armor}<br>Helmet/Shield: {helmet}<br>Weapons: {weapons}<br>Items: {tool,gear,trinket}<br>Bonus item: {bonus}'
 ]
 gen_data['armor'] = {
   '1-3': 'None',
