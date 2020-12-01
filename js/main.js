@@ -17,9 +17,8 @@ for (let i = 0; i < allItems.length; i++) {
     total += 2;
   } else if (!item.includes("No body armor")) {
     total++;
-  }
 }
-
+}
 console.log(total);
 $("#character").html(generate_text("character"));
 $("#age").html(roll(20) + roll(20) + 10);
