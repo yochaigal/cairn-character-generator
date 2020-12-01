@@ -232,10 +232,10 @@ gen_data['armor'] = {
 }
 
 gen_data['helmet'] = {
-  '1-13': 'None',
-  '14-16': 'Helmet (+1 Armor)',
-  '17-19': 'Shield (+1 Armor)',
-  '20': 'Helmet and Shield (+2 Armor)'
+  '1-13': ' ',
+  '14-16': ' and a Helmet (+1 Armor)',
+  '17-19': ' and a Shield (+1 Armor)',
+  '20': ' a Helmet (+1 Armor) and a Shield (+1 Armor)'
 }
 
 gen_data['weapons'] = {
@@ -250,10 +250,20 @@ gen_data['wgroup2'] = ['Sword', 'Mace', 'Axe']
 gen_data['wgroup3'] = ['Longbow (bulky)', 'Crossbow (bulky)', 'Sling']
 gen_data['wgroup4'] = ['Halberd (bulky)', 'War Hammer (bulky)', 'Battleaxe (bulky)']
 
+gen_data['armor_weapons'] = {
+  '1-10':'{armor}',
+  '11-20':'{weapons}'
+}
+
+gen_data['tool_trinket'] = {
+  '1-10':'{tool}',
+  '11-20':'{trinket}'
+}
+
 gen_data['bonus'] = {
-  '1-6': '{tool} or {trinket}',
+  '1-6': '{tool_trinket}',
   '7-13': '{gear}',
-  '14-17': '{armor} armor or one of {weapons}',
+  '14-17': '{armor_weapons}',
   '18-20': 'Spellbook containing the spell \'{spellbook}\''
 }
 
