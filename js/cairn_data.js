@@ -225,7 +225,7 @@ gen_data['equipment'] = [
   'armor: {armor}<br>Helmet/Shield: {helmet}<br>Weapons: {weapons}<br>Items: {tool,gear,trinket}<br>Bonus item: {bonus}'
 ]
 gen_data['armor'] = {
-  '1-3': 'None',
+  '1-3': 'No body armor',
   '4-14': 'Brigandine (1 Armor, bulky)',
   '15-19': 'Chainmail (2 Armor, bulky)',
   '20': 'Plate (3 Armor, bulky)'
@@ -299,13 +299,13 @@ gen_data['trinket'] = [
 ,  'Soap (tiny)'
 ,  'Spyglass'
 ,  'Tar Pot'
-,  'Twine'
+,  'Twine (tiny)'
 ,  'Fake Jewels'
 ,  'Salt Pack'
 ,  'Card Deck (tiny)'
 ,  'Dice Set (tiny)'
 ,  'Cook Pots'
-,  'Face Paint'
+,  'Face Paint (tiny)'
 ,  'Whistle (tiny)'
 ,  'Instrument'
 ,  'Quill & Ink'
@@ -317,7 +317,7 @@ gen_data['gear'] = [
 ,  'Pulleys'
 ,  'Large Trap'
 ,  'Chain (10ft)'
-,  'Chalk'
+,  'Chalk (tiny)'
 ,  'Crowbar'
 ,  'Tinderbox'
 ,  'Grappling Hook'
