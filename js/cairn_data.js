@@ -240,7 +240,7 @@ gen_data['helmet'] = {
 
 gen_data['weapons'] = {
 '1-10':'{wgroup1}',
-'10-14':'{wgroup2}',
+'11-14':'{wgroup2}',
 '15-19':'{wgroup3}',
 '20':'{wgroup4}'
 }
