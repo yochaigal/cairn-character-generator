@@ -16,6 +16,8 @@ for (let i = 0; i < allItems.length; i++) {
   let item = allItems[i];
   if (item.includes("bulky")) {
     total += 2;
+  } else if (total > 10){
+    total = 10;
   } else if (!item.includes("protection") && (!item.includes("nor") && (!item.includes("stacks")))) {
     total++;
   }
