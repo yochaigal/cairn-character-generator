@@ -225,14 +225,14 @@ gen_data['equipment'] = [
   'armor: {armor}<br>Helmet/Shield: {helmet}<br>Weapons: {weapons}<br>Items: {tool,gear,trinket}<br>Bonus item: {bonus}'
 ]
 gen_data['armor'] = {
-  '1-3': 'Unarmored',
+  '1-3': 'No upper body protection',
   '4-14': 'Brigandine (1 Armor, bulky)',
   '15-19': 'Chainmail (2 Armor, bulky)',
   '20': 'Plate (3 Armor, bulky)'
 }
 
 gen_data['helmet'] = {
-  '1-13': ' ',
+  '1-13': ', and no additional protection',
   '14-16': ', a Helmet (+1 Armor)',
   '17-19': ', a Shield (+1 Armor)',
   '20': ', a Helmet (+1 Armor) and a Shield (+1 Armor)'
