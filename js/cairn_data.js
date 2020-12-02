@@ -304,7 +304,7 @@ gen_data['trinket'] = [
 ,  'Salt Pack (stacks)'
 ,  'Card Deck (stacks)'
 ,  'Dice Set (stacks)'
-,  'Cook Pots (stacks)'
+,  'Cook Pots'
 ,  'Face Paint'
 ,  'Whistle (stacks)'
 ,  'Instrument'
