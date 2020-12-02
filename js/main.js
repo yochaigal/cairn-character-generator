@@ -10,7 +10,7 @@ const weapons = generate_text("weapons");
 const bonus = generate_text("bonus");
 
 let allItems = [];
-allItems.push(armor, helmet, weapons, tool, gear, trinket, bonus);
+allItems.push(armor, helmet, weapons, gear, tool, trinket, bonus);
 let total = 1;
 for (let i = 0; i < allItems.length; i++) {
   let item = allItems[i];
@@ -18,7 +18,7 @@ for (let i = 0; i < allItems.length; i++) {
     total += 2;
   } else if (!item.includes("Unarmored")) {
     total++;
-}
+  }
 }
 
 let armorTotal = 0;
@@ -41,8 +41,7 @@ $("#character").html(generate_text("character"));
 $("#age").html(roll(20) + roll(20) + 10);
 $("#hp").html(roll(6));
 ["str", "dex", "wil"].forEach((item, i) => {
-  $("#" + item).html(roll(6) + roll(6) + roll(6));
-});
+$("#" + item).html(roll(6) + roll(6) + roll(6));});
 $("#armor").html(armor);
 $("#helmet").html(helmet);
 $("#weapons").html(weapons);
