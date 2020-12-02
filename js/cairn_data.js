@@ -225,7 +225,7 @@ gen_data['equipment'] = [
   'armor: {armor}<br>Helmet/Shield: {helmet}<br>Weapons: {weapons}<br>Items: {tool,gear,trinket}<br>Bonus item: {bonus}'
 ]
 gen_data['armor'] = {
-  '1-3': 'No body armor',
+  '1-3': 'Unarmored',
   '4-14': 'Brigandine (1 Armor, bulky)',
   '15-19': 'Chainmail (2 Armor, bulky)',
   '20': 'Plate (3 Armor, bulky)'
@@ -233,9 +233,9 @@ gen_data['armor'] = {
 
 gen_data['helmet'] = {
   '1-13': ' ',
-  '14-16': ' and a Helmet (+1 Armor)',
-  '17-19': ' and a Shield (+1 Armor)',
-  '20': ' a Helmet (+1 Armor) and a Shield (+1 Armor)'
+  '14-16': ', a Helmet (+1 Armor)',
+  '17-19': ', a Shield (+1 Armor)',
+  '20': ', a Helmet (+1 Armor) and a Shield (+1 Armor)'
 }
 
 gen_data['weapons'] = {
@@ -268,26 +268,26 @@ gen_data['bonus'] = {
 }
 
 gen_data['tool'] = [
-  'Air bladder'
-,  'Sealant'
-,  'Shovel'
-,  'Bellows'
-,  'Grease'
-,  'Saw'
-,  'Bucket'
-,  'Caltrops'
-,  'Chisel'
-,  'Hand Drill'
-,  'Fishing Rod'
-,  'Marbles'
-,  'Glue'
-,  'Pick'
-,  'Hourglass'
-,  'Net'
-,  'Tongs'
-,  'Lockpicks'
-,  'Metal File'
-,  'Nails'
+    'Air bladder'
+  ,  'Sealant'
+  ,  'Shovel'
+  ,  'Bellows'
+  ,  'Grease'
+  ,  'Saw'
+  ,  'Bucket'
+  ,  'Caltrops'
+  ,  'Chisel'
+  ,  'Hand Drill'
+  ,  'Fishing Rod'
+  ,  'Marbles'
+  ,  'Glue'
+  ,  'Pick'
+  ,  'Hourglass'
+  ,  'Net'
+  ,  'Tongs'
+  ,  'Lockpicks'
+  ,  'Metal File'
+  ,  'Nails'
 ]
 
 gen_data['trinket'] = [

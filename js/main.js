@@ -8,6 +8,7 @@ const gear = generate_text("gear");
 const trinket = generate_text("trinket");
 const weapons = generate_text("weapons");
 const bonus = generate_text("bonus");
+
 let allItems = [];
 allItems.push(armor, helmet, weapons, tool, gear, trinket, bonus);
 let total = 1;
@@ -15,7 +16,7 @@ for (let i = 0; i < allItems.length; i++) {
   let item = allItems[i];
   if (item.includes("bulky")) {
     total += 2;
-  } else if (!item.includes("No body armor")) {
+  } else if (!item.includes("Unarmored")) {
     total++;
 }
 }
