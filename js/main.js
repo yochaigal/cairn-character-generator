@@ -26,6 +26,8 @@ armorValue.push(armor, helmet);
 armorValue.forEach((item) => {
   if (item.includes("1")) {
     armorTotal++;
+  } if (armorTotal > 3){
+      armorTotal = 3
   } else if (item.includes("2")) {
     armorTotal += 2;
   } else if (item.includes("3")) {
