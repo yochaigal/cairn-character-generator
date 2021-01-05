@@ -11,7 +11,7 @@ const bonus = generate_text("bonus");
 
 let allItems = [];
 allItems.push(armor, helmet, weapons, gear, tool, trinket, bonus);
-let total = 1;
+let total = 2;
 for (let i = 0; i < allItems.length; i++) {
   let item = allItems[i];
   if (item.includes("bulky")) {
