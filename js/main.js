@@ -1,5 +1,5 @@
 roll = (d) => {
-  return Math.ceil(Math.random() * d);
+  Math.floor(Math.random()*d)+1;
 };
 const armor = generate_text("armor");
 const helmet = generate_text("helmet");
